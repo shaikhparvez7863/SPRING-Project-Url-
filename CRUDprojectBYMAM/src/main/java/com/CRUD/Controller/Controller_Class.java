@@ -36,7 +36,7 @@ public class Controller_Class {
 		this.serviceIMP = serviceIMP;
 	}
 
-	// Get All Users
+	// Get All Users with pagination format 
 	@GetMapping
 	public ResponseEntity<Object> getAllUsers(@RequestParam(defaultValue = "0", required = false)Integer pageNumber,
 			@RequestParam(defaultValue = "10",required = false)Integer pageSize){
