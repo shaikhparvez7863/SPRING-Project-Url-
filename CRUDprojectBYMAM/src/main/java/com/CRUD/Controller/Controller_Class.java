@@ -44,7 +44,7 @@ public class Controller_Class {
 		return ResponseHandler.responseBuilder(entriesPage, HttpStatus.OK, "Records Found");
 	}
 
-	// Get Single User
+	// Get Single User Added some changes 
 	@GetMapping("{id}")
 	public ResponseEntity<Object> getByID(@PathVariable("id") Integer id) {
 		UserEntity userEntity = serviceIMP.getOneUser(id);
