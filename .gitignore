@@ -1,0 +1,55 @@
+# Ignore Maven build directory
+/target/
+
+# Ignore Gradle build directory
+/build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignore STS (Spring Tool Suite) project files
+.springBeans
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore application properties and YAML files (if they contain sensitive information)
+# Uncomment if you want to exclude these files
+# application.properties
+# application.yml
+
+# Ignore environment variable files
+.env
+
+# Ignore Java build directories
+/bin/
+/out/
+/build/
+
+# Ignore package-lock for npm (if using frontend within the same project)
+package-lock.json
